@@ -1,15 +1,68 @@
 .App {
-  text-align: center;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  color: #333333;
+  font-family: "Signika", Sans-serif;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  /*justify-content: center;*/
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: left;
+  font-size: calc(75px + 2vmin);
   padding-top: 3vh;
+  padding-left: 3vw;
+  float: left;
+  margin-top: 20vh;
+  margin-left: 2%;
+}
+
+#mostly {
+  color: rgba(252, 73, 71, 0.8);
+}
+
+.header-wrapper {
+  min-height: 100vh;
+  background: url("components/sliced_fruit.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  overflow: auto;
+}
+
+.navbar {
+  list-style-type: none;
+  justify-content: flex-start;
+  overflow: auto;
+  padding-left: 2vw;
+}
+
+.navbar li {
+  display: inline-block;
+  margin: 2vw;
+  border-bottom: 1px solid #333333;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: #333333;
+}
+
+.navbar li a:hover {
+}
+
+.recipe-card-wrapper {
+  display: inline-block;
+  max-width: calc(300px + 3vh);
+}
+
+/*.recipe-card-wrapper {
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}*/
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
 }
