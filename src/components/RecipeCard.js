@@ -14,21 +14,5 @@ function RecipeCard(props) {
 
 //<li> elements for ingr list using conditional rendering and the list array from recipe file
 // Some way to import recipe file to this file and automatically render all recipes?
-//
 
 export default RecipeCard;
-
-//MAPPING:
-/*
-import jokesData from "./jokesData"
-!!JokesData is an array of objects rather than a single object!
-
-function App() {
-    const jokeComponents = jokesData.map(joke => <Joke key={joke.id} question={joke.question} punchLine={joke.punchLine} />)
-
-    return (
-        <div>
-            {jokeComponents}
-        </div>
-    )
-*/
